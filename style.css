@@ -90,19 +90,21 @@ body {
   font-weight: 700;
   color: #2e3349;
   padding-right: 2px;
+  padding-top: 2px;
 }
 
 .card-box .profile .profile-age {
   font-weight: 400;
   color: #6b7082;
   padding-left: 2px;
+  padding-top: 2px;
 }
 
 .card-box .profile .profile-origin {
   display: block;
   font-size: 77.78%;
   color: #6b7082;
-  padding-top: 13px;
+  padding-top: 12px;
 }
 
 .card-box .profile-info {
@@ -120,7 +122,7 @@ body {
   /* margin-left: 47px; */
   /* margin-right: 54px; */
   padding-top: 5px;
-  padding-left: 46px;
+  padding-left: 51px;
   font-weight: 700;
   color: #2e3349;
   text-align: center;
@@ -135,7 +137,7 @@ body {
   font-size: 55.56%;
   font-weight: 400;
   color: #6b7082;
-  padding-top: 9px;
+  padding-top: 6px;
   letter-spacing: 1.5px;
 }
 
