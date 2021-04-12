@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 112.5%;
+}
+
+body {
+  overflow: hidden;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container {
+  background-color: #19a1ae;
+  min-height: 100vh;
+  position: relative;
+}
+
+.container img {
+  position: absolute;
+}
+
+.bg-pattern-top {
+  top: -509px;
+  left: -285px;
+}
+
+.bg-pattern-bottom {
+  bottom: -632px;
+  right: -230px;
+}
+
+.card-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-box {
+  z-index: 2;
+  background-color: #fff;
+  height: 374px;
+  width: 350px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  position: relative;
+}
+
+.card-box .card-image {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-box .profile-picture {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  top: 92px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.card-box .profile {
+  position: absolute;
+  top: 212px;
+  width: 100%;
+  text-align: center;
+}
+
+.card-box .profile .profile-name {
+  font-weight: 700;
+  color: #2e3349;
+}
+
+.card-box .profile .profile-age {
+  font-weight: 400;
+  color: #6b7082;
+}
+
+.card-box .profile .profile-origin {
+  display: block;
+  font-size: 77.78%;
+  color: #6b7082;
+  padding-top: 13px;
+}
+
+.card-box .profile-info {
+  padding: 24px 0;
+  border-top: #e8e9ec 1px solid;
+  position: absolute;
+  top: 285px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card-box .profile-info .profile-subinfo {
+  padding-left: 46px;
+  font-weight: 700;
+  color: #2e3349;
+  text-align: center;
+}
+
+.card-box .profile-info .profile-subinfo:first-child {
+  padding-left: 0;
+}
+
+.card-box .profile-info .profile-subinfo span {
+  display: block;
+  font-size: 55.56%;
+  font-weight: 400;
+  color: #6b7082;
+  padding-top: 9px;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
