@@ -89,11 +89,13 @@ body {
 .card-box .profile .profile-name {
   font-weight: 700;
   color: #2e3349;
+  padding-right: 2px;
 }
 
 .card-box .profile .profile-age {
   font-weight: 400;
   color: #6b7082;
+  padding-left: 2px;
 }
 
 .card-box .profile .profile-origin {
@@ -107,7 +109,7 @@ body {
   padding: 24px 0;
   border-top: #e8e9ec 1px solid;
   position: absolute;
-  top: 285px;
+  top: 76.2%;
   width: 100%;
   display: flex;
   /* justify-content: center; */
@@ -122,8 +124,6 @@ body {
   font-weight: 700;
   color: #2e3349;
   text-align: center;
-  letter-spacing: 1.5px;
-  line-height: 10px;
 }
 
 .card-box .profile-info .profile-subinfo:first-child {
@@ -136,6 +136,7 @@ body {
   font-weight: 400;
   color: #6b7082;
   padding-top: 9px;
+  letter-spacing: 1.5px;
 }
 
 .attribution {
