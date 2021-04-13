@@ -21,12 +21,12 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](assets/images/solution_screenshot.png "Solution Screenshot")
+![Solution Screenshot](./assets/images/solution_screenshot.png "Solution Screenshot")
 
 ### Links
 
 - Solution URL: [Solution](https://www.frontendmentor.io/solutions/profile-card-component-with-htmlcss-4d4UT9LNr)
-- Live Site URL: [Llive Site](https://profile-card-component-1.netlify.app/)
+- Live Site URL: [Live Site](https://profile-card-component-1.netlify.app/)
 
 ## My process
 
