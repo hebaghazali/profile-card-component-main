@@ -11,11 +11,11 @@ html {
 }
 
 body {
-  overflow: hidden;
   font-family: 'Kumbh Sans', sans-serif;
 }
 
 .container {
+  overflow: hidden;
   background-color: #19a1ae;
   min-height: 100vh;
   position: relative;
